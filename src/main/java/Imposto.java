@@ -1,3 +1,3 @@
-public abstract interface Imposto {
-    public abstract double calculaImposto(double valor);
+public interface Imposto {
+    double calculaImposto(double valor);
 }
