@@ -4,6 +4,6 @@ public class COFINS implements Imposto{
         if (valor > 12000.0)
             return valor *= 0.04;
         else
-            return valor;
+            return 0;
     }
 }
