@@ -11,11 +11,10 @@ public class ExercicioDois {
         double valorIcms = impostoIcms.calculaImposto(valor);
         double valorIpi = impostoIpi.calculaImposto(valor);
         double valorCofins = impostoCofins.calculaImposto(valor);
-        double somatorio = valorCofins + valorIpi + valorIpi;
 
         System.out.println("Imposto ICMS: " + valorIcms);
         System.out.println("Imposto IPI: " + valorIpi);
         System.out.println("Imposto COFINS: " + valorCofins);
-        System.out.println("Somatorio dos impostos: " + somatorio);
+        System.out.println("Somatorio dos impostos: " + (valorIcms+valorIpi+valorCofins));
     }
 }
